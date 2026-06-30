@@ -1,2 +1,31 @@
-# student-performance-predictor
-Predictive Student Analytics Dashboard using ML &amp; Python.
+# 📊 Predictive Student Analytics Dashboard
+
+An end-to-end desktop GUI application built in Python that uses Machine Learning to predict student final marks based on daily behavioral data.
+
+## 🚀 Core Features
+* **Interactive Desktop GUI:** Built with Python's graphical interface tools for real-time live testing.
+* **Production-Ready Models:** Implements optimized Random Forest and XGBoost regressions.
+* **Leakage-Free Pipeline:** Engineered with a strict train-test split validation framework to prevent overfitting.
+
+## 📈 Model Performance Profiles
+Our evaluation loop utilizes a strict 80/20 train-test validation split on unseen data:
+* **XGBoost / Random Forest R² Score:** 0.90+ (Highly stable variance explanation)
+* **Mean Absolute Error (MAE):** ~2.3 Marks (Average prediction deviation)
+
+## 🛠️ Tech Stack
+* **Language:** Python
+* **ML Libraries:** Scikit-Learn, XGBoost, NumPy, Pandas
+* **Interface:** Tkinter / CustomTkinter
+
+## 📋 Features Analyzed
+1. Study Hours
+2. Attendance Rate (%)
+3. Sleep Hours
+4. Previous Marks
+5. Assignment Scores
+6. Participation Rate
+
+## 💻 How To Run
+1. Clone this repository.
+2. Install dependencies: `pip install pandas numpy scikit-learn xgboost`
+3. Launch the dashboard: `python student_gui.py`
