@@ -26,6 +26,35 @@ Our evaluation loop utilizes a strict 80/20 train-test validation split on unsee
 6. Participation Rate
 
 ## 💻 How To Run
-1. Clone this repository.
-2. Install dependencies: `pip install pandas numpy scikit-learn xgboost`
-3. Launch the dashboard: `python student_gui.py`
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/rumana-mca/student-performance-predictor.git
+```
+
+### 2. Move into the project folder
+
+```bash
+cd student-performance-predictor
+```
+
+### 3. Install the required libraries
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the application
+
+```bash
+python student_gui.py
+```
+## 🚀 Future Improvements
+
+- AI-generated personalized recommendations
+- Cloud deployment for remote accessibility
+- Teacher dashboard with class-wise analytics
+- Student progress tracking over multiple semesters
+- Email notifications for at-risk students
+- Multi-user authentication and role-based access
